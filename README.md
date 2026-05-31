@@ -82,6 +82,8 @@ Expected Result:
 - PHP-FPM = Active (running)
 - MariaDB = Active (running)
 
+![](img/1.png)
+![](img/2.png)
 ---
 
 # Step 2: Configure MariaDB Root Password
@@ -116,7 +118,9 @@ Enter:
 ```text
 Pass@123
 ```
-
+![](img/3.png)
+![](img/4.png)
+![](img/5.png)
 ---
 
 # Step 3: Create WordPress Database
@@ -138,7 +142,7 @@ Exit MariaDB:
 ```sql
 exit;
 ```
-
+![](img/6.png)
 ---
 
 # Step 4: Download WordPress
@@ -173,7 +177,8 @@ You should see:
 wordpress
 latest.zip
 ```
-
+![](img/7.png)
+![](img/8.png)
 ---
 
 # Step 5: Configure Nginx for WordPress
@@ -212,7 +217,9 @@ Reload Nginx:
 ```bash
 sudo service nginx reload
 ```
-
+![](img/9.png)
+![](img/10.png)
+![](img/11.png)
 ---
 
 # Step 6: Access WordPress Setup Wizard
@@ -236,7 +243,7 @@ Click:
 ```text
 Let's Go!
 ```
-
+![](img/12.png)
 ---
 
 # Step 7: Configure Database Connection
@@ -268,7 +275,8 @@ Click:
 ```text
 Run the Installation
 ```
-
+![](img/13.png)
+![](img/14.png)
 ---
 
 # Step 8: Configure WordPress Site
@@ -287,7 +295,7 @@ Click:
 ```text
 Install WordPress
 ```
-
+![](img/15.png)
 ---
 
 # Step 9: WordPress Installation Completed
@@ -304,7 +312,7 @@ Click:
 ```text
 Log In
 ```
-
+![](img/16.png)
 ---
 
 # Step 10: Login to WordPress Admin Panel
@@ -327,6 +335,7 @@ Admin URL:
 ```text
 http://<EC2-Public-IP>/wp-admin
 ```
+![](img/17.png)
 
 ---
 
@@ -344,6 +353,7 @@ Features available:
 - Users
 - Settings
 
+![](img/18.png)
 ---
 
 # Step 12: Verify WordPress Website
@@ -364,6 +374,7 @@ This confirms:
 ✅ MariaDB is connected successfully  
 ✅ WordPress is fully operational
 
+![](img/20.png)
 ---
 
 ## Project Outcome
